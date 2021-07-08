@@ -12,3 +12,9 @@ echo vaule1=$val
 val=$(($a * $b + $c))
 echo vaule2=$val
 
+
+val=$(($c + $a / $b))
+echo vaule3=$val
+
+
+
