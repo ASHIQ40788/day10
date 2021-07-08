@@ -1,6 +1,5 @@
 #!/bin/bash -x
-
-for i in $( echo "10 -29 33 67 -6 7 -10" | tr ' ' '\n' | sort -nr )
+for i in $( echo "34 26 6 3" | tr ' ' '\n' | sort -r )
 do
   echo $i
 done
