@@ -7,14 +7,16 @@ read b
 read c
 
 val=$(($a + $b * $c))
-echo vaule1=$val
+echo value1=$val
 
 val=$(($a * $b + $c))
-echo vaule2=$val
+echo value2=$val
 
 
 val=$(($c + $a / $b))
-echo vaule3=$val
+echo value3=$val
 
+val=$(($a / $b + $c))
+echo value4=$val
 
 
